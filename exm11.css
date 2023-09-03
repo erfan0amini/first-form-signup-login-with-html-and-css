@@ -1,0 +1,97 @@
+body{
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(138,36,36,1) 66%, rgba(0,0,0,1) 100%);
+    display: inline-block;
+    font-family: sans-serif;
+}
+div.di{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    margin:100px 550px ;
+    border-radius:22px ;
+}
+.trg{
+    color: red;
+}
+div.st{
+    display:block;
+    font-size: 20px;
+    /* float: right; */
+    text-align: center;
+    padding-top: 50px;
+}
+p.blu{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+input[type=text],
+input[type=email],
+input[type=password]{
+    display: block;
+    border: none;
+    width: 300px;
+    border: none;
+    border-bottom:2px solid rgb(254, 49, 49) ;
+    padding:10px 10px ;
+}
+button{
+    border: none;
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(138,36,36,1) 50%, rgba(0,0,0,1) 100%);
+    color: white;
+    width: 320px;
+    font-size: 17px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:20px ;
+    margin-left: 40px;
+}
+input:hover{
+    border: none;
+    border-bottom: 3px solid rgb(254, 49, 49) ;
+}
+input[type=text],
+input[type=email],
+input[type=password]{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+input[type=radio]{
+    color:rgb(155, 2, 2);
+    display: inline-block;
+}
+p.tyu{
+    display: inline-block;
+    color:rgb(155, 2, 2);
+
+}
+p.lef{
+    margin-left: 15px;
+}
+div#tre{
+    padding-left: 45px;
+    padding-top: 20px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+p.p{
+    display: inline-block;
+    color: red;
+}
+.p:hover{
+    color: rgba(138,36,36,1);
+}
+a.ty{
+    padding-top: 7px ;
+    padding-left: 80px;
+    color: black;
+}
+a.ty:hover{
+    color: rgb(138,36,36);
+}
