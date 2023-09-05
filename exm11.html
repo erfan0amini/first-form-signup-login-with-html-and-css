@@ -10,15 +10,16 @@
     <div class="di">
         <div class="st"><b class="trg">Sign up </b>New Account</div>
         <form action="">
-            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Username (maximum 10 characters)" maxlength="10">
             <input type="email" placeholder="Your email">
-            <input type="password" placeholder="Password">
-            <input type="password" placeholder=" Repeat Password">
+            <!-- <input type="tel" placeholder="Your Phone Num" maxlength="11"> -->
+            <input type="password" placeholder="Password (maximum 8 digits)" maxlength="8">
+            <input type="password" placeholder=" Repeat Password" maxlength="8">
                 <div id="tre">
-                    <p class="tyu">Male</p>
-                    <input type="radio" value="Male">
-                    <p class="tyu lef">Female</p>
-                    <input type="radio" value="Female">
+                    <input type="radio" id="Male" name="Male" value="Male" >
+                    <label class="tyu" for="Male">Male<label>
+                    <input type="radio" id="Female" name="Female" value="Female" class="left">
+                    <label class="tyu lef" for="Female">Female</label>
                 </div>
             <button>Sign up</button>
         </form>

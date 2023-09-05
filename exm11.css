@@ -1,6 +1,6 @@
 body{
     background: rgb(255,0,0);
-    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(138,36,36,1) 66%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgb(255,0,0) 0%, rgb(118, 18, 18) 66%, rgb(0,0,0) 100%);
     display: inline-block;
     font-family: sans-serif;
 }
@@ -21,20 +21,23 @@ div.st{
     text-align: center;
     padding-top: 50px;
 }
-p.blu{
+label.blu{
     color: red;
     font-size: 20px;
     text-align: center;
 }
 input[type=text],
 input[type=email],
-input[type=password]{
+input[type=password],
+input[type=tel]{
     display: block;
     border: none;
     width: 300px;
     border: none;
     border-bottom:2px solid rgb(254, 49, 49) ;
     padding:10px 10px ;
+    /* input:focus; */
+    outline: none;
 }
 button{
     border: none;
@@ -55,7 +58,8 @@ input:hover{
 }
 input[type=text],
 input[type=email],
-input[type=password]{
+input[type=password],
+input[type=tel]{
     margin-top: 40px;
     margin-left: 40px;
 }
@@ -63,13 +67,15 @@ input[type=radio]{
     color:rgb(155, 2, 2);
     display: inline-block;
 }
-p.tyu{
+input.left{
+    margin-left: 20px;
+}
+label.tyu{
     display: inline-block;
     color:rgb(155, 2, 2);
-
 }
-p.lef{
-    margin-left: 15px;
+label.lef{
+    margin-left: 0px;
 }
 div#tre{
     padding-left: 45px;

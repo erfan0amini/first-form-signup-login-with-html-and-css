@@ -1,6 +1,6 @@
 body{
-    background: rgb(0,241,255);
-    background: radial-gradient(circle, rgba(0,241,255,1) 37%, rgba(45,62,158,1) 66%);
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 66%, rgba(2,0,36,1) 100%);
     display: inline-block;
     font-family: sans-serif;
 }
@@ -37,6 +37,7 @@ input[type=password]{
     border: none;
     border-bottom:2px solid rgb(51, 180, 231) ;
     padding:10px 10px ;
+    outline:none;
 }
 button{
     border: none;
